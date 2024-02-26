@@ -1,0 +1,29 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: aquamarine;
+    text-decoration-color: blueviolet;
+    text-color: darkblue;
+    
+}
+
+.chap2{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+.chap1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+*{
+    background-image: url(https://static.frontendmasters.com/assets/courses/2023-01-12-background-javascript/thumb.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}

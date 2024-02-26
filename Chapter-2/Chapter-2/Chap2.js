@@ -1,0 +1,1 @@
+alert("Try to Make a program With JavaScript")
