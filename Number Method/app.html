@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Method</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- // Random number generator -->
+    <!-- <h1>Number Method</h1>
+    <h1 id="random">Random Number</h1>
+    <button onclick="generatOTPNumber()">Generate OTP Number</button>
+     -->
+     <!-- //random password generator -->
+     <!-- <h1 id="password">Random Password</h1>
+     <button onclick="generatePassword()">Generate Password</button> -->
+
+     <!-- //Dice Number  -->
+     <!-- <input type="text" maxlength="20" id="userName" placeholder="Enter Your Name">
+     <input type="text" maxlength="1" id="dice_input" placeholder="Try Your Luck">
+        <h1 id="dice">Dice Number </h1>
+        <h1 id="win_loss"></h1>
+        <button onclick="generateDiceNumber()"> Try YOur Luck</button> -->
+<!-- 
+        1. Dice Game hogi
+        2.User ke pass 6 number honge
+        3.user kisi number pe click krega or ham aik number generate krenge
+        4. ager number match hogya to user jeet gya wrna har gya
+        5.  User ke pass 10 turns hongi , if he wins 3 out of 10 he is winner otherwise losser -->
+
+
+       <!-- //Dice Game -->
+
+        <h1>Dice Game</h1>
+
+        <h3 id="msg" class="msg"></h3>
+        <div class="container">
+        <div onclik="tryMyLuck(5)" class="box">1</div>
+        <div onclik="tryMyLuck(5)" class="box">2</div>
+        <div onclik="tryMyLuck(5)" class="box">3</div>
+        <div onclik="tryMyLuck(5)" class="box">4</div>
+        <div onclik="tryMyLuck(5)" class="box">5</div>
+        <div onclik="tryMyLuck(5)" class="box">6</div>
+        
+        
+    </div>
+
+
+    
+    
+
+    <div class="container">
+        
+        <div class="box_info"><b>User Number</b><span id="user_number">10</span></div>
+        <div class="box_info"><b>RandomNumbe </b> <span id="random_number">  3</span> </div>
+        <div class="box_info"><b><span id="result">You loss / Win</span></b></div>
+    </div>
+
+    <div class="container">
+        <div class="box_info"><b>Turns</b> :<span id="total">10 </span> </div>
+        <div class="box_info"><b>Win</b><span id="win">0</span> </div>
+        <div class="box_info"><b>Loss</b> :<span id="loss">0</span> </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

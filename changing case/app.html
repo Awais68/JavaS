@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changing case</title>
+    <style>
+        .box{
+            background-color: aquamarine;
+            padding: 300px;
+            margin: 300px;
+            border-radius: 5px;
+            margin: 0px auto;
+        }
+        .colorBox{
+            height: 50px;   
+            width: 50px;    
+            margin: 10px;   
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box">
+   </div> 
+
+   <div style="display: flex; width: 300; justify-content: center;
+   align-items: center;margin: 0px auto;">
+   <div onclick="changeRed()" class="colorBox" style="background-color: red;"></div>
+   <div onmouseover="changeOrange()" class="colorBox" style="background-color: orange;"></div>
+   <div onmouseover="changeBlue()" class="colorBox" style="background-color: blue;"></div>
+   <div onmouseover="changeBlack()" class="colorBox" style="background-color: black;"></div>
+   <div onmouseover="changeYellow()" class="colorBox" style="background-color: yellow;"></div>
+   <div onmouseover="changeGreen()" class="colorBox" style="background-color: rgb(9, 255, 0);"></div>
+   </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
