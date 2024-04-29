@@ -11,7 +11,7 @@
     align-items: center;
     text-shadow: aquamarine;
     text-decoration-color: blueviolet;
-    text-color: darkblue;
+    /* text: darkblue; */
     /* background-image: url(https://static.frontendmasters.com/assets/courses/2023-01-12-background-javascript/thumb.webp); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@
 
 .chap2{
     display: flex;
-    /* text-align: center; */
+    text-align: center;
     justify-content: center;
 }
 .chap1{
@@ -30,9 +30,6 @@
    
 }
 
-*{
-    
-}
 .p{
     color: blue;
     font-size: larger;
