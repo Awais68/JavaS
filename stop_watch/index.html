@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Stop Watch</title>
+</head>
+<body >
+    <h1 class="d-flex text-center text-white m-8 p-5 bg-blue-950  shadow-inner">STOP WATCH </h1>
+
+    <div class="flex w-full justify-center item-left gap-8 mt-48"> 
+
+        
+        <div class="bg-blue-950  shadow-xl shadow-cyan-500/50 transition-transform cursor-pointer  border-x-indigo-500 text-white p-12 text-5x1 font-bold rounded-md" id="hours">00</div>
+        <div class="bg-blue-950 shadow-xl shadow-cyan-500/70  transition-transform cursor-pointer border-x-indigo-500 text-white p-12 text-5x1 font-bold rounded-md" id="minutes">00</div>
+        <div class="bg-blue-950 shadow-xl shadow-cyan-500/100  transition-transform cursor-pointer border-x-indigo-500 text-white p-12 text-5x1 font-bold rounded-md" id="seconds">00</div>
+        <div class="bg-blue-950 shadow-xl shadow-cyan-500/100  transition-transform cursor-pointer border-x-indigo-500 text-white p-12 text-5x1 font-bold rounded-md" id="milliSecond">00</div>
+       
+    </div>
+
+    <div class="flex justify-center m-8 p-5 ">
+        
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-4" onclick="start()"> Start </button>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-4" onclick="stop()"> Stop </button>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-4" onclick="reset()"> Restart </button>
+
+    </div>
+
+
+    <!-- <h1 id="am-pm" class="text-center text 3x1 font-bold mt-8 text-white">AM / PM</h1> -->
+
+
+    <script src="app.js"></script>
+</body>
+</html>
